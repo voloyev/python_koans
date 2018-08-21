@@ -7,9 +7,9 @@ class AboutStrings(Koan):
 
     def test_double_quoted_strings_are_strings(self):
         string = "Hello, world."
-        self.assertEqual(__, isinstance(string, str))
+        self.assertEqual(str, isinstance(string, str))
 
-    def test_single_quoted_strings_are_also_strings(self):
+def test_single_quoted_strings_are_also_strings(self):
         string = 'Goodbye, world.'
         self.assertEqual(__, isinstance(string, str))
 
